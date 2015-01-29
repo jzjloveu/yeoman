@@ -1,0 +1,25 @@
+sudo apt-get update
+
+sudo apt-get install build-essential openssl libssl-dev curl
+
+sudo apt-get install git
+
+sudo apt-get install nodejs
+
+sudo apt-get install npm
+
+echo prefix = ~/.node >> ~/.npmrc
+
+echo 'export PATH=$HOME/.node/bin:$PATH' >> ~/.bashrc
+
+sudo ln -s /usr/bin/nodejs /usr/bin/node
+
+npm install --global yo bower grunt-cli
+
+sudo reboot
+
+yo --version && bower --version && grunt --version
+
+npm install --global generator-angular
+
+sudo reboot
