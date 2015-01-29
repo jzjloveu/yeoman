@@ -7,5 +7,5 @@ echo prefix = ~/.node >> ~/.npmrc
 echo 'export PATH=$HOME/.node/bin:$PATH' >> ~/.bashrc
 sudo ln -s /usr/bin/nodejs /usr/bin/node
 npm install --global yo bower grunt-cli
-npm install --global generator-angular
 sudo reboot
+npm install --global generator-angular
